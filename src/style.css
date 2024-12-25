@@ -1,0 +1,54 @@
+:root{
+    --secondary-color: #9C9C9C;
+    --primary-color: #080808;
+}
+body{
+    color: #ECFCCB;
+}
+h1{
+    color: #365314;
+}
+h3{
+    color: white;
+}
+.body_sty{
+    background-color: var(--primary-color);
+}
+.logo{
+    font-family: 'dancing script',sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    font-style: italic;
+}
+.logo-body{
+    background-color: #1B1B1B;
+    color: var(--secondary-color);
+    filter: drop-shadow(1px 5px 5px #65A30D)
+
+}
+.header-text{
+    color:#9C9C9C;
+}
+img{
+    /* border-radius: 50%; */
+    /* height: 240px; */
+    height:100px;
+}
+#personal-img{
+    border-radius: 10px;
+}
+.button{
+    background-color: #3F8E00;
+    filter: drop-shadow(1px 3px 2px #65A30D);
+    border: 0;
+    color: #FFFFFF;
+    width: 200px;
+    height:36px;
+}
+.bg_footer{
+    background-color: #181616;
+}
+.footer-anchor{
+    text-decoration: none;
+    color:rgb(205, 214, 223);
+}
