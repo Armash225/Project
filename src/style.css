@@ -2,6 +2,11 @@
     --secondary-color: #9C9C9C;
     --primary-color: #080808;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     color: #ECFCCB;
 }
