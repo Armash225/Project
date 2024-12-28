@@ -12,6 +12,7 @@ body{
 }
 h1{
     color: #365314;
+    scroll-margin-top: 6rem;
 }
 h3{
     color: white;
@@ -57,3 +58,4 @@ img{
     text-decoration: none;
     color:rgb(205, 214, 223);
 }
+
