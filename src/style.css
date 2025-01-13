@@ -32,6 +32,11 @@ h3{
     filter: drop-shadow(1px 5px 5px #65A30D)
 
 }
+.nav__items:hover , .nav__items:focus{
+    text-decoration: underline;
+    color:#FFFFFF;
+}
+
 .header-text{
     color:#9C9C9C;
 }
@@ -50,6 +55,20 @@ img{
     color: #FFFFFF;
     width: 200px;
     height:36px;
+}
+.button:hover , .button:focus{
+    background-color: #408e007a;
+    filter: drop-shadow(1px 3px 2px #65A30D);   
+    color:#ffffffc0;
+    text-decoration: underline;
+    .Cards__title{
+}
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.cards__text{
+    color: #ffffffa9;
 }
 .bg_footer{
     background-color: #181616;

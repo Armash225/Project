@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Java Application
+    </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--Incrementing game-->
+    <div class="increment-body">
+        <h1>
+            People enterd:
+        </h1>
+        <h2 id="count-el">
+            0
+        </h2>
+        <button id="increment-btn" onclick="increment()" >
+            Increment
+        </button>
+        <button id="save-btn" onclick="save()">
+            Save
+        </button>
+        <p id="save-el">Previous entries: </p>
+    </div>
+
+
+    <!--Black Jack Game -->
+
+    <div class="blackjack-body">
+        <h1 class="jack-heading">
+            BlackJack
+        </h1>
+        <p id="message-el" style="font-style: italic;">Want to play a round</p>
+        <p id="card-el">Cards:</p>
+        <p id="sum-el">Sum: </p>
+        <button class="blackjack-btn" onclick="startGame()">Start Game</button>
+        <button id="new-btn" class="blackjack-btn" onclick="newCard()">New Card</button>
+        <div>
+            <button class="blackjack-btn" onclick="restartGame()">Restart</button>
+        </div>
+        <p id="player-el"></p>
+    </div>
+
+    <!--Chrome Extension-->
+    
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
