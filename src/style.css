@@ -56,18 +56,20 @@ img{
     width: 200px;
     height:36px;
 }
-.button:hover , .button:focus{
+.button:hover , .button:focus, .button:active{
     background-color: #408e007a;
     filter: drop-shadow(1px 3px 2px #65A30D);   
     color:#ffffffc0;
     text-decoration: underline;
-    .Cards__title{
-}
-    color: aliceblue;
-    font-weight: bold;
+    
 }
 
-.cards__text{
+.card-title{
+    color: aliceblue;
+    font-weight: 700;;
+}
+
+.card-text{
     color: #ffffffa9;
 }
 .bg_footer{
@@ -78,3 +80,9 @@ img{
     color:rgb(205, 214, 223);
 }
 
+@media screen and (min-width: 380px) and (max-width: 539px) {
+    .card{
+        max-width: 75%;
+        margin: auto;
+    }
+}

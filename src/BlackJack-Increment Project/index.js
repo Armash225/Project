@@ -30,6 +30,10 @@ const messageEl = document.getElementById("message-el");
 const sumEl = document.getElementById("sum-el");
 const cardEl = document.getElementById("card-el");
 const playerEl = document.getElementById("player-el"); 
+//Extra Content for disabling the start btn 
+const startBtn = document.getElementById("start-btn");
+
+
 let cards = [];
 let sum = 0;
 let hasBlackJack = false;
@@ -58,7 +62,6 @@ function startGame(){
     sum = firstCard + secondCard;
     renderGame();
 }
-
 function renderGame(){
     cardEl.textContent = "Cards: "
     for(let i = 0; i < cards.length; i++){
@@ -88,6 +91,12 @@ function renderGame(){
     }
 }
 
+//Extra Content Disabling the start button when start button is pressed for the forst time undisable on ln 123
+startBtn.addEventListener("click", function(){
+    startBtn.disabled = true ;
+    startBtn.style.opacity = "0.6";
+});
+
 function newCard(){
     if(isAlive === true && hasBlackJack === false){
         let card = getRandomCard();
@@ -110,6 +119,9 @@ function restartGame(){
         const newBtn = document.getElementById("new-btn")
         newBtn.disabled = false;
         newBtn.style.opacity = "1";
+        //Extra content for undisabling the start button when pressed the restart btn disabled on ln 94
+        startBtn.disabled = false ;
+        startBtn.style.opacity = "1";
     }
 }
 
